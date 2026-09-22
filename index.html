@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karthik B C - Portfolio</title>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+    <!-- Subtle noise overlay for texture -->
+    <div class="noise-overlay"></div>
+
+    <header id="header">
+        <!-- Mobile Top Bar -->
+        <div class="mobile-top-bar">
+            <h1 class="mobile-title">KARTHIK B C</h1>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <div class="header-content" id="header-content">
+            <div class="profile-img-container">
+                <img src="profile.png" alt="Karthik B C" class="profile-img">
+            </div>
+            <h1 class="desktop-title">KARTHIK B C</h1>
+            
+            <!-- Animated Subtitle / Typing Text -->
+            <p class="animated-subtitle">I am a <span id="typing-text"></span><span class="cursor">&nbsp;</span></p>
+
+            <div class="header-contact">
+                <a href="mailto:karthiappu078@gmail.com"><i class="fa-solid fa-envelope"></i> karthiappu078@gmail.com</a>
+                <a href="tel:+918904933622"><i class="fa-solid fa-phone"></i> +91 8904933622</a>
+            </div>
+
+            <!-- Social Links: LinkedIn + GitHub -->
+            <div class="social-links">
+                <a href="https://linkedin.com/in/karthik-b-c-89ab2234a" target="_blank" class="social-link">
+                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Karthikappu08" target="_blank" class="social-link">
+                    <i class="fa-brands fa-github"></i> Karthikappu08
+                </a>
+            </div>
+
+            <div class="resume-container">
+                <a href="KarthikBC_Resume.pdf" target="_blank" class="resume-btn">
+                    <i class="fa-solid fa-file-arrow-down"></i> View Resume
+                </a>
+            </div>
+
+            <nav id="nav-menu">
+                <a href="#about" class="nav-link active">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certificates" class="nav-link">Certificates</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- ABOUT SECTION -->
+        <section id="about" class="active-section reveal">
+            <h2>About Me</h2>
+            <p>I am Karthik B C, an aspiring software developer with a strong focus on computer vision, deep learning, and interactive web applications. I enjoy converting complex technical concepts into practical, user-friendly digital solutions.</p>
+        </section>
+
+        <!-- EDUCATION SECTION -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="edu-card">
+                <h3>Bachelor of Computer Application (2024 - 2027)</h3>
+                <p><strong>Institution:</strong> REVA UNIVERSITY</p>
+                <p><strong>Score:</strong> Last sem SGPA : 7.61</p>
+            </div>
+            <div class="edu-card">
+                <h3>Pre university (2021-2022)</h3>
+                <p><strong>Institution:</strong> Christ the king pu college k.r.pet</p>
+                <p><strong>Score:</strong> Percentage : 68 %</p>
+            </div>
+            <div class="edu-card">
+                <h3>SSLC (2019-2020)</h3>
+                <p><strong>Institution:</strong> infant jesus enhlish med high school college k.r.pet</p>
+                <p><strong>Score:</strong> Percentage : 84 %</p>
+            </div>
+        </section>
+
+        <!-- PROJECTS SECTION -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>Tour and Travels Management System</h3>
+                <p>Working in progress. A web-based application to manage tour and travel operations effectively.</p>
+            </div>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>C, C++</li>
+                <li>Java</li>
+                <li>DBMS / RDBMS</li>
+            </ul>
+        </section>
+
+        <!-- CERTIFICATES SECTION -->
+        <section id="certificates">
+            <h2>Certificates</h2>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>Python PHO</li>
+            </ul>
+        </section>
+
+        <!-- CONTACT SECTION -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <p><strong>Phone:</strong> 8904933622</p>
+            <p><strong>Email:</strong> karthiappu078@gmail.com</p>
+            <p><strong>Address:</strong> kattigenahalli, Yalahanka, bengaluru - 562114</p>
+        </section>
+    </div>
+
+    <!-- Main Script -->
+    <script src="script.js"></script>
+</body>
+</html>
